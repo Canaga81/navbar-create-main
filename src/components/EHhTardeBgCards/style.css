@@ -1,5 +1,5 @@
 .unity_bg {
-    padding: 5rem 8rem;
+    padding: 5rem 2rem;
 }
 
 .unity_bg-container {
@@ -15,20 +15,25 @@
     gap: 20px;
 }
 
+.unity_bg_image-div {
+    max-width: 800px;
+}
+
 .unity_bg-container_left .unity_bg-h1 {
     font-size: 66px;
     letter-spacing: 1.5px;
     font-weight: 500;
 }
 
-.ehtrade_bg-container_left .ehtrade_bg_text-p {
+.unity_bg-container_left .unity_bg_text-p {
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: 1.5px;
     max-width: 650px;
+    text-align: justify;
 }
 
-.ehtrade_bg-container_left .ehtrade_bg_button {
+.unity_bg-container_left .unity_bg_button {
     width: 250px;
     height: 36px;
     background-color: red;
@@ -42,20 +47,20 @@
     transition: all 0.24s ease-in;
 }
 
-.ehtrade_bg-container_left .ehtrade_bg_button:hover {
+.unity_bg-container_left .unity_bg_button:hover {
     color: red;
     border: 1px solid red;
     background-color: #fff;
 }
 
-.ehtrade_header {
+.header {
     margin-top: -2rem;
     height: 20rem;
     overflow: hidden;
     border-bottom: 2px solid var(--color-gray-400);
 }
 
-.ehtrade_header__container {
+.header__container {
     width: 100%;
     height: 100%;
     position: relative;
@@ -64,27 +69,27 @@
     background: #000;
 }
 
-.ehtrade_header__container-bg {
+.header__container-bg {
     position: absolute;
     width: 100%;
 }
 
-.ehtrade_header__container-bg img {
+.header__container-bg img {
     opacity: 0.5;
 }
 
-.ehtrade_header__content {
+.header__content {
     position: relative;
     width: 70%;
     margin: 0 auto;
     text-align: center;
 }
 
-.ehtrade_header__content h2 {
+.header__content h2 {
     margin-bottom: 1rem;
 }
 
-.ehtrade_header__content p {
+.header__content p {
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -92,7 +97,7 @@
 
 @media(max-width: 1250px) {
 
-    .ehtrade_bg {
+    .unity_bg {
         padding: 5rem 4rem;
     }
 
@@ -100,7 +105,7 @@
 
 @media(max-width: 1150px) {
 
-    .ehtrade_bg {
+    .unity_bg {
         padding: 5rem 2rem;
     }
 
@@ -108,11 +113,11 @@
 
 @media(max-width: 1100px) {
 
-    .ehtrade_bg-container_left .ehtrade_bg-h1 {
+    .unity_bg-container_left .unity_bg-h1 {
         font-size: 46px;
     }
 
-    .ehtrade_bg-container_left .ehtrade_bg_text-p {
+    .unity_bg-container_left .unity_bg_text-p {
         font-size: 16px;
     }
 
@@ -120,7 +125,7 @@
 
 @media screen and (max-width: 1024px) {
 
-    .ehtrade_header__content {
+    .header__content {
         width: 90%;
     }
 
@@ -128,7 +133,7 @@
 
 @media(max-width: 900px) {
 
-    .ehtrade_bg-container_left .ehtrade_bg-h1 {
+    .unity_bg-container_left .unity_bg-h1 {
         font-size: 36px;
     }
 
@@ -136,23 +141,23 @@
 
 @media(max-width: 840px) {
 
-    .ehtrade_bg-container {
+    .unity_bg-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .ehtrade_bg-container_left {
+    .unity_bg-container_left {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .ehtrade_bg-container_left .unity_bg-h1 {
+    .unity_bg-container_left .unity_bg-h1 {
         text-align: center;
     }
-    
-    .ehtrade_bg-container_left .unity_bg_text-p {
+
+    .unity_bg-container_left .unity_bg_text-p {
         text-align: center;
     }
 

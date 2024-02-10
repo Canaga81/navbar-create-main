@@ -27,10 +27,22 @@ const UnityBg = () => {
           <div className="unity_bg-container_left">
             <h1 className="unity_bg-h1">Sizə Ən Yaxsı Məsləhət Lazimdir?</h1>
             <p className="unity_bg_text-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              reprehenderit neque consequuntur possimus praesentium nobis
-              aliquam aperiam sint. Provident omnis in dolorum et iste, deserunt
-              eum ratione eos earum itaque!
+              Unity Consulting MMC, 2015-ci ildən etibarən mühasibat, vergi,
+              audit və dizayn sahələrində geniş fəaliyyət göstərən təcrübəli bir
+              şirkətdir. Müştərilərinin sahibkarlıq fəaliyyətlərini effektiv
+              şəkildə idarə etmələrinə yardım etmək məqsədilə, mühasibatlıq və
+              vergi sahəsində müstəqil və səmərəli xidmətlər təklif edir.
+              Şirkət, audit proseslərində də geniş bacarığa sahib olaraq,
+              müştərilərinin finans məlumatlarını dəqiqləşdirir və şəffaflıq
+              təmin edir. Unity Consulting MMC, müxtəlif sahibkarlıq
+              təşkilatlarına, gömrük rəsmiləşdirilməsi məsələlərində dəstək
+              göstərərək, müştərilərinin beynəlxalq ticarət fəaliyyətlərini
+              nailiyyətlə həyata keçirmələrinə kömək edir. Şirkət, güclü və
+              müstəqil komandası ilə müştərilərinin tələblərinə uyğun özəl
+              çözümlər təklif edir və onların maliyyə məsələlərində rahatlığı
+              təmin edir. Unity Consulting MMC, inkişaf etməyə davam edərək,
+              sahibkarlıq sahəsində müştərilərinə ən yaxşı və sürətli xidməti
+              təqdim etməkdə nailiyyətlərini artırmağa fokuslanmaqdadır.
             </p>
 
             <Link to={"/about"}>
