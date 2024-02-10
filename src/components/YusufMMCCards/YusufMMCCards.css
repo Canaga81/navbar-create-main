@@ -1,6 +1,6 @@
 .yusuf_mmc_section {
     padding: 5rem 10rem;
-    
+
 }
 
 .yusuf_card_container {
@@ -15,19 +15,56 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.25s ease-in;
 }
 
 .card-bottom {
     clip-path: polygon(48% 38%, 80% 0, 99% 0, 100% 100%, 77% 100%, 50% 100%, 20% 100%, 0 100%, 0 0, 21% 0);
-    background-color: red;
     height: 200px;
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: rgb(163, 177, 138);
+    background: linear-gradient(90deg, rgba(163, 177, 138, 1) 0%, rgba(207, 151, 33, 1) 35%);
 }
 
 .card-top {
     height: 100px;
     width: 100px;
-    background-color: aqua;
+    background-color: rgba(207, 151, 33, 1);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     margin-bottom: -3.4rem;
+    display: grid;
+    place-items: center;
+}
+
+.card-top svg {
+    width: 30px;
+    height: 30px;
+    fill: #a3b18a;
+}
+
+.text_arror_boya {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    display: none;
+    transition: all 0.25s ease-in;
+}
+
+.boya_h2 {
+    padding-top: 2.5rem;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1.5px;
+
+}
+
+.card_cont:hover .text_arror_boya {
+    display: flex;
+    color: red;
+
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SənayeBoyalari = () => {
+const SenayeBoyalari = () => {
   return (
     <div>SənayeBoyalari</div>
   )
 }
 
-export default SənayeBoyalari
+export default SenayeBoyalari

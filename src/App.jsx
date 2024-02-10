@@ -16,6 +16,7 @@ import Sellozik_boyalar from "./pages/Sellozik_boyalar/SellozikBoyalar";
 import HammentonBoya from "./pages/HammentonBoyalar/HammentonBoya";
 import Sintetik_boyalar from "./pages/Sintetik_boyalar/Sintetik_boyalar";
 import Sellozik_ve_Sintetik_tiner from "./pages/Sellozik_ve_Sintetik_tiner/Sellozik_ve_Sintetik_tiner";
+import SenayeBoyalari from "./pages/SənayeBoyalar/SənayeBoyalari";
 
 function App() {
   return (
@@ -36,9 +37,10 @@ function App() {
           <Route path="/interyer" element={<Interyer />} />
           <Route path="/suesasliboyalar" element={<SuEsasliBoyalar/>} />
           <Route path="/sellozikboyalar" element={<Sellozik_boyalar/>} />
-          <Route path="//hammentonboyalar" element={<HammentonBoya />} />
+          <Route path="/hammentonboyalar" element={<HammentonBoya />} />
           <Route path="/sintetikboyalar" element={<Sintetik_boyalar/>} />
-          <Route path="/sellozikvesintetiktiner" element={<Sellozik_ve_Sintetik_tiner/>} />} />
+          <Route path="/sellozikvesintetiktiner" element={<Sellozik_ve_Sintetik_tiner/>} />
+          <Route path="/sənayeboyalari" element={<SenayeBoyalari/>} />
           
         </Routes>
 

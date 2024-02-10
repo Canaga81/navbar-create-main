@@ -33,7 +33,7 @@ export const menus = [
           },
           {
             label: "Sənaye boyaları",
-            to: "/sənayeboyaları",
+            to: "/sənayeboyalari",
           },
           {
             label: "Sellozik ve Sintetik tiner",
