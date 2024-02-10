@@ -17,7 +17,7 @@ export const menus = [
         children: [
           {
             label: "Su əsaslı  boyalar",
-            to: "/suəsaslıboyalar",
+            to: "/suesasliboyalar",
           },
           {
             label: "Sellozik boyalar",

@@ -1,5 +1,5 @@
 import React from "react";
-import Yusuf_UM_MMC_Bg_Image from '../../images/dye_bg_image.jpg'
+import Yusuf_UM_MMC_Bg_Image from '../../images/dye_2_Bg_Image.jpg'
 
 const YusifUmMMCBg = () => {
   return (

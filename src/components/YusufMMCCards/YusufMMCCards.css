@@ -1,0 +1,33 @@
+.yusuf_mmc_section {
+    padding: 5rem 10rem;
+    
+}
+
+.yusuf_card_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-bottom {
+    clip-path: polygon(48% 38%, 80% 0, 99% 0, 100% 100%, 77% 100%, 50% 100%, 20% 100%, 0 100%, 0 0, 21% 0);
+    background-color: red;
+    height: 200px;
+    width: 300px;
+}
+
+.card-top {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin-bottom: -3.4rem;
+}
