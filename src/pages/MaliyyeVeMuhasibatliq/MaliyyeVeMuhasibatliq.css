@@ -1,0 +1,116 @@
+.maliyeMuhContainer {
+    padding: 2rem 2rem;
+}
+
+.maliyeMuhaConImgText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.maliyeMuhaTextCon {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.maliyeMuhaTextCon_Top {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.maliyeMuhaTextCon_Top-p_bold {
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.maliyeMuhaTextCon_Top-p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
+
+.maliyeMuhaTextCon_Bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.maliyeMuhaTextCon_Bottom-h3 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.maliyeMuhaTextCon_Bottom-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.maliyeMuhaTextCon_Bottom-li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.maliyeMuhaTextCon_Bottom-li span {
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.maliyeMuhaTextCon_Bottom-li p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+@media(max-width: 1250px) {
+
+    .maliyeMuhaConImgText {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+@media(max-width: 500px) {
+
+    .maliyeMuhaTextCon_Top-p_bold {
+        font-family: sans-serif;
+        font-size: 19px;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+
+    .maliyeMuhaTextCon_Top-p {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        font-family: sans-serif;
+    }
+
+    .maliyeMuhaTextCon_Bottom-h3 {
+        font-family: sans-serif;
+        font-size: 22.2px;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+
+    .maliyeMuhaTextCon_Bottom-li span {
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .maliyeMuhaTextCon_Bottom-li p {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+}
