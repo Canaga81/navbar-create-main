@@ -17,6 +17,10 @@ import HammentonBoya from "./pages/HammentonBoyalar/HammentonBoya";
 import Sintetik_boyalar from "./pages/Sintetik_boyalar/Sintetik_boyalar";
 import Sellozik_ve_Sintetik_tiner from "./pages/Sellozik_ve_Sintetik_tiner/Sellozik_ve_Sintetik_tiner";
 import SenayeBoyalari from "./pages/SənayeBoyalar/SənayeBoyalari";
+import MaliyyeVeMuhasibatliq from "./pages/MaliyyeVeMuhasibatliq/MaliyyeVeMuhasibatliq";
+import VergiAudit from "./pages/VergiAudit/VergiAudit";
+import GomrukResmilesdirmesiVeBrokerHidmeti from "./pages/GomrukResmilesdirmesiVeBrokerHidmeti/GomrukResmilesdirmesiVeBrokerHidmeti";
+import DizaynHidmetleri from "./pages/DizaynHidmetleri/DizaynHidmetleri";
 
 function App() {
   return (
@@ -41,6 +45,10 @@ function App() {
           <Route path="/sintetikboyalar" element={<Sintetik_boyalar/>} />
           <Route path="/sellozikvesintetiktiner" element={<Sellozik_ve_Sintetik_tiner/>} />
           <Route path="/sənayeboyalari" element={<SenayeBoyalari/>} />
+          <Route path="/maliyyevemuhasibatliq" element={<MaliyyeVeMuhasibatliq />} />
+          <Route path="/vergiaudit" element={<VergiAudit />} />
+          <Route path="/gomrukresmilesdirilmesivebrokerhidmetleri" element={<GomrukResmilesdirmesiVeBrokerHidmeti />} />
+          <Route path="/dizaynhidmetleri" element={<DizaynHidmetleri />} />
           
         </Routes>
 

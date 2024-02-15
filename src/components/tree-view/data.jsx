@@ -1,14 +1,14 @@
 export const menus = [
   {
-    label: "Home",
+    label: "Ana Səhifə",
     to: "/",
   },
   {
-    label: "About",
+    label: "Haqqımızda",
     to: "/about",
   },
   {
-    label: "Companines",
+    label: "Şirkətlərimiz",
     to: "/",
     children: [
       {
@@ -47,19 +47,19 @@ export const menus = [
         children: [
           {
             label: "Maliyyə və Mühasibatlıq",
-            to: "/maliyyə və mühasibatlıq",
+            to: "/maliyyevemuhasibatliq",
           },
           {
             label: "Vergi Audit ",
-            to: "/vergi audit",
+            to: "/vergiaudit",
           },
           {
             label: "Gömrük rəsmiləşdirilməsi və Broker xidmətləri",
-            to: "/gömrük rəsmiləşdirilməsi və broker xidmətləri",
+            to: "/gomrukresmilesdirilmesivebrokerhidmetleri",
           },
           {
             label: "Dizayn Xidmətləri",
-            to: "/dizayn xidmətləri",
+            to: "/dizaynhidmetleri",
           },
         ],
       },
@@ -88,7 +88,7 @@ export const menus = [
     ],
   },
   {
-    label: "Contact",
+    label: "Əlaqə",
     to: "/contact",
   },
 ];

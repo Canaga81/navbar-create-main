@@ -15,7 +15,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: all 0.25s ease-in;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
 }
 
 .card-bottom {
@@ -45,14 +46,16 @@
     width: 30px;
     height: 30px;
     fill: #a3b18a;
+    transition: all 0.5s ease-in-out;
 }
 
 .text_arror_boya {
     display: flex;
     align-items: center;
     gap: 5px;
-    display: none;
-    transition: all 0.25s ease-in;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all 0.5s ease-in-out;
 }
 
 .boya_h2 {
@@ -60,11 +63,19 @@
     font-size: 24px;
     color: #fff;
     letter-spacing: 1.5px;
-
 }
 
 .card_cont:hover .text_arror_boya {
     display: flex;
     color: red;
+    opacity: 1;
+    transform: translateY(-5px);
+}
 
+.card_cont:hover .card-top svg {
+    fill: #fff;
+}
+
+.card_cont:hover {
+    transform: translateY(-10px);
 }
